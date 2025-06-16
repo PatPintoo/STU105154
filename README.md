@@ -22,3 +22,10 @@ This dissertation explores how open e-bike data from Citi Bike NYC and Transport
 
 ## 📜 License
 Licensed under the [MIT License](LICENSE)
+## 🧩 Low-Fidelity Wireframes
+
+- [📄 Desktop Wireframe (HTML)](./wireframe.html)
+- [📱 Mobile Wireframe (HTML)](./mobile-wireframe.html)
+
+These mockups illustrate the early interface layout before implementing final UI features. They were used during user feedback sessions to improve clarity and accessibility.
+
