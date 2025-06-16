@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Low-Fidelity Wireframe - E-Bike Dashboard (Mobile View)</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 10px;
+      background: #f8f8f8;
+    }
+    .box {
+      border: 2px dashed #555;
+      background: white;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    }
+    .header {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .filters label,
+    .filters select {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+    }
+    .chart {
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .notes {
+      font-size: 0.95rem;
+      background: #f0f0f0;
+    }
+
+    @media (min-width: 600px) {
+      body {
+        max-width: 500px;
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box header">
+    E-Bike Data Visualisation Dashboard
+  </div>
+
+  <div class="box filters">
+    <label for="time-filter">Time Period Filter:</label>
+    <select id="time-filter"><option>Hourly</option><option>Daily</option></select>
+
+    <label for="user-filter">User Type Filter:</label>
+    <select id="user-filter"><option>Subscriber</option><option>Casual</option></select>
+  </div>
+
+  <div class="box chart">
+    📊 <br> Chart Visualization Area
+  </div>
+
+  <div class="box notes">
+    <strong>Explanation:</strong><br>
+    This chart helps non-technical users see hourly trip patterns and compare subscriber vs casual usage.
+  </div>
+
+</body>
+</html>
