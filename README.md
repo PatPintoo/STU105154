@@ -28,4 +28,16 @@ Licensed under the [MIT License](LICENSE)
 - [📱 Mobile Wireframe (HTML)](./mobile-wireframe.html)
 
 These mockups illustrate the early interface layout before implementing final UI features. They were used during user feedback sessions to improve clarity and accessibility.
+## 🧩 High-Fidelity Wireframe
+
+![High-Fidelity Wireframe](./high-fidelity-wireframe.png)
+
+This refined wireframe includes the full layout of the desktop dashboard:
+- Header with logo, date and user filters, and download option
+- Main container displaying a city map, speed/CO₂ chart, battery/trip history
+- Sidebar with navigation and city selector
+- Footer with accessibility/help/settings links
+
+These elements were added based on user feedback to improve usability and interaction flow.
+
 
