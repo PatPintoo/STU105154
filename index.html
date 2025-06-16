@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Bike Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white p-4 shadow flex flex-wrap justify-between items-center">
+    <div class="text-xl font-bold">🚲 E-Bike Dashboard</div>
+    <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+      <select class="border rounded p-2">
+        <option>Date Filter</option>
+        <option>Today</option>
+        <option>This Week</option>
+      </select>
+      <select class="border rounded p-2">
+        <option>User Type</option>
+        <option>Subscriber</option>
+        <option>Casual</option>
+      </select>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">⬇ Download</button>
+    </div>
+  </header>
+
+  <div class="flex flex-col md:flex-row">
+    <!-- Sidebar -->
+    <aside class="bg-white w-full md:w-60 p-4 border-r">
+      <h3 class="font-semibold mb-2">Sidebar</h3>
+      <ul class="space-y-2 text-blue-700">
+        <li><a href="#">🌍 City Selector</a></li>
+        <li><a href="#">📍 Navigation</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Container -->
+    <main class="flex-1 p-4 space-y-4">
+      <!-- Row 1: Map -->
+      <div class="bg-white p-4 rounded shadow">
+        <h4 class="font-bold mb-2">🗺️ City Map View</h4>
+        <div class="h-40 bg-gray-200 flex items-center justify-center">Map Placeholder</div>
+      </div>
+
+      <!-- Row 2: Speed + CO2 -->
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="bg-white p-4 flex-1 rounded shadow">
+          <h4 class="font-bold mb-2">⚡ Speed Chart</h4>
+          <div class="h-32 bg-gray-200 flex items-center justify-center">Speed Chart</div>
+        </div>
+        <div class="bg-white p-4 flex-1 rounded shadow">
+          <h4 class="font-bold mb-2">🌱 CO2 Reduction</h4>
+          <div class="h-32 bg-gray-200 flex items-center justify-center">CO2 Chart</div>
+        </div>
+      </div>
+
+      <!-- Row 3: Battery + Trip History -->
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="bg-white p-4 flex-1 rounded shadow">
+          <h4 class="font-bold mb-2">🔋 Battery Chart</h4>
+          <div class="h-32 bg-gray-200 flex items-center justify-center">Battery Chart</div>
+        </div>
+        <div class="bg-white p-4 flex-1 rounded shadow">
+          <h4 class="font-bold mb-2">🧾 Trip History</h4>
+          <div class="h-32 bg-gray-200 flex items-center justify-center">Trip History</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white p-4 mt-4 border-t text-sm text-center space-x-4">
+    <a href="#">Help</a>
+    <a href="#">Accessibility</a>
+    <a href="#">Settings</a>
+    <a href="#">About</a>
+  </footer>
+
+</body>
+</html>
